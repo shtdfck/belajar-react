@@ -67,7 +67,44 @@ html {
   font-size: 1.8rem;
   font-family: "bungee", sans-serif;
 
-  padding: 24px;
+  padding: 16px;
+
+  background: unset;
+  border: unset;
+  outline: unset;
+  cursor: pointer;
+}
+
+.add {
+  padding: 16px;
+}
+
+.add-form {
+  display: flex;
+  align-items: flex-start;
+}
+
+.add-input {
+  background: unset;
+  border: unset;
+  padding: 0 64px;
+
+  flex: 1;
+  border-bottom: 1px solid var(--main-red-color);
+  outline: unset;
+
+  font-family: "Homemade Apple", sans-serif;
+  font-size: 16px;
+  text-decoration: lowercase;
+}
+
+.add-btn {
+  font-size: 1.8rem;
+  font-family: "bungee", sans-serif;
+
+  padding: 16px;
+  padding-right: unset;
+  cursor: pointer;
 
   background: unset;
   border: unset;
